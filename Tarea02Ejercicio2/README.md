@@ -1,23 +1,36 @@
-# Ejercicio 1
-> Este ejercicio se compone de tres partes.
+# Ejercicio 2
+> La dena de los filosofos
 
 ## Primera parte
 
-Introduczco codigo en el IDE eclipse donde se le pide al usuario la entrada aleatoria de numeros enteros, los cuales a medida que se introducen se hace una comprobacion que el numero sea entero, si este es entero se añade a un arraylist.
+Creamos una clase llamada palillos donde estendemos la clase semaphore donde declaramos 5 vareiables, una por cada palillo que hay en la mesa, en esta clase establecemos un permiso para la clase semaphore, con el parametro justo en true para que el pprimero en invocar al metodo adquiere tenga el primer permiso.
 
-El el momento que el usuario no introduzca nada, y acepte. El programa procede a ordenar de mayor a menor el array list y luego a listarlos por consola.
+![imagen](https://user-images.githubusercontent.com/44735067/49603893-d0494300-f98c-11e8-872b-9862af55fb58.png)
 
-![captura1](https://user-images.githubusercontent.com/44735067/47969525-2a4aa600-e079-11e8-85fd-3a052123c941.PNG)
 
 ## Segunda parte
 
-Introduczco codigo donde a traves de un bucle 'for' que se repite 40 veces se genera cada vez un numero aleatorio comprendido entre 0 y 100 a traves de la clase 'Random'
+Creamos una clase llamada filosofo donde extenderemos a la clase thread. Dentro de esta clase creamos 5 variables con los nombres de los filosofos y tambien indicamos el tiempo que pasara entre procesos.
 
-![captura2](https://user-images.githubusercontent.com/44735067/47969537-523a0980-e079-11e8-9686-ab5fc7ebb041.PNG)
+![imagen](https://user-images.githubusercontent.com/44735067/49604312-d986df80-f98d-11e8-8fd7-563013bc4e60.png)
 
+
+Dentro de esta clase creamos el metodo run, en el cual dendro de un buqle con su condicion en true para que se repita hasta que se fuerze su fin.
+![imagen](https://user-images.githubusercontent.com/44735067/49604486-4dc18300-f98e-11e8-8001-e267b2c5bf4d.png)
+
+Dentro de dicho bucle se adquiere el permiso para coger dos palillos, en el cual se nos permite el filosofo comera y si no pensara.
+
+![imagen](https://user-images.githubusercontent.com/44735067/49604719-f243c500-f98e-11e8-8d51-38406117d309.png)
+
+Cuando el filosofo piensa o come se le dara un tiempo.
+![imagen](https://user-images.githubusercontent.com/44735067/49604952-89108180-f98f-11e8-88dd-f2d7390e4365.png)
 
 ## Tercera parte
 
-Ejecuto ambos programas utilizando el operador '|' para pasar los datos que genera el programa que crea numeros aleatorios al programa que ordena los numeros.
+Finalmente en el metodo main se crean 5 objetos de la clase palillo y se crean 5 objetos de la clase filosofo donde se le para como parametro el nombre del filosofo el numero del palillo de la izquierda y  palillo de la derecha.
+Y le paramos las clases  palillo
 
-![captura4](https://user-images.githubusercontent.com/44735067/47969571-c1176280-e079-11e8-870b-b78cdeeac18f.PNG)
+E iniciamos los hilos.
+
+![imagen](https://user-images.githubusercontent.com/44735067/49605057-d0970d80-f98f-11e8-824b-9ad491337e76.png)
+
