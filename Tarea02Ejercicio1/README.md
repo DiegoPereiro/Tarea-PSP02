@@ -1,5 +1,5 @@
 # Ejercicio 1
-> ejeccio productor - constructor donde el productor producte 15 caracteres y los guarda en un buffer con una capacidad de 6 caracteres y el consumidor consume 15 caracteres
+> Ejerccio productor - constructor donde el productor producte 15 caracteres y los guarda en un buffer con una capacidad de 6 caracteres y el consumidor consume 15 caracteres
 
 ## 1º Creamos la clases almacen donde se almacenaran los datos
 Mediante un arraylist con un limite de 6 caracteres almacemamos los caracteres.
