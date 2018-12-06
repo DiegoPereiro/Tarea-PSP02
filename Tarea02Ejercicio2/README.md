@@ -23,6 +23,7 @@ Dentro de dicho bucle se adquiere el permiso para coger dos palillos, en el cual
 ![imagen](https://user-images.githubusercontent.com/44735067/49604719-f243c500-f98e-11e8-8d51-38406117d309.png)
 
 Cuando el filosofo piensa o come se le dara un tiempo.
+
 ![imagen](https://user-images.githubusercontent.com/44735067/49604952-89108180-f98f-11e8-88dd-f2d7390e4365.png)
 
 ## Tercera parte
